@@ -36,8 +36,8 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :redux_chat_hedgehog, ReduxChatHedgehog.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  # username: "postgres",
+  # password: "postgres",
   database: "redux_chat_hedgehog_dev",
   hostname: "localhost",
   pool_size: 10
